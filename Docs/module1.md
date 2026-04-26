@@ -246,6 +246,8 @@ Une fois que tu es à l’aise avec l’interface, tout le reste devient beaucou
 
 ---
 
+📍 Module actuel : Module 1 – Interface et Navigation
+
 ➡️ Module suivant : [Module 2 – Saisie et Mise en forme](module2.md) 
 
 🏠 Accueil : [Programme Excel](../README.md)
