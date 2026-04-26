@@ -19,8 +19,9 @@ Avant de cliquer partout, il faut comprendre ce que tu as devant toi.
 Un classeur, c’est simplement ton fichier Excel.
 
 <p align="center">
-  <img src="../img/Le classeur.jpg" width="500" height="300">
+  <img src="../img/Le classeur.jpg" width="500" height="500">
 </p>
+
 
 Imagine un cahier :
 - Le fichier Excel = le cahier
