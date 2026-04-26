@@ -1,200 +1,318 @@
-
 # Module 2 – Saisie et Mise en forme
 
 ## Objectif pédagogique
-À l’issue de ce module, l’apprenant sera capable de :
-- Saisir correctement différents types de données dans Excel
-- Modifier et corriger les données
-- Appliquer une mise en forme claire et professionnelle
-- Utiliser les formats adaptés (monétaire, pourcentage, date)
+À la fin de ce module, tu dois être capable de :
+- Saisir des données propres, structurées et exploitables dans Excel
+- Identifier et utiliser correctement les types de données
+- Corriger et modifier des cellules sans casser la structure du tableau
+- Appliquer une mise en forme professionnelle (style Excel)
+- Utiliser les formats de nombres pour rendre les données lisibles et exploitables
 
 ---
 
-## 1. Introduction à la saisie des données
+## 1. Introduction : la règle d’or d’Excel
 
-Avant de travailler avec Excel, il est essentiel de comprendre que la qualité de vos analyses dépend directement de la qualité de vos données.
+Dans Excel, une vérité est essentielle :
 
-Une donnée mal saisie entraîne des erreurs de calcul et d’interprétation.
+> Une mauvaise saisie = une mauvaise analyse
+
+Excel ne “corrige pas” tes données. Il les exécute.
+
+Si tu entres des données mal structurées :
+- tes formules seront fausses
+- tes graphiques seront incohérents
+- tes analyses seront inutilisables
+
+👉 Un bon utilisateur Excel commence toujours par des données propres (clean data).
 
 ---
 
-## 2. Types de données
+## 2. Types de données dans Excel
 
-### 2.1 Le texte
-Le texte correspond à toute information non numérique.
+Excel reconnaît plusieurs types de données. Les maîtriser est fondamental.
+
+---
+
+### 2.1 Le texte (Text / String)
+
+Le texte correspond à toute donnée non calculable.
 
 Exemples :
-- Nom d’un produit
-- Nom d’un client
+- Nom de produit
 - Catégorie
+- Ville
+- Client
 
-Le texte est généralement aligné à gauche par défaut.
+Comportement Excel :
+- Aligné à gauche par défaut
+- Non utilisé dans les calculs
+- Peut servir de critère de tri ou filtre
+
+👉 Exemple professionnel :
+“Fourniture bureau”, “Transport”, “Marketing”
 
 ---
 
-### 2.2 Les nombres
-Les nombres sont utilisés pour effectuer des calculs.
+### 2.2 Les valeurs numériques (Number)
+
+Les nombres sont les données exploitables dans les calculs.
 
 Exemples :
 - Prix
 - Quantité
 - Montant
+- Taux
 
-Les nombres sont alignés à droite par défaut.
+Comportement Excel :
+- Aligné à droite par défaut
+- Utilisé dans toutes les formules (SOMME, MOYENNE, etc.)
+
+👉 Attention :
+Un nombre stocké en texte ne sera pas calculé.
 
 ---
 
-### 2.3 Les dates
-Les dates permettent de suivre des événements dans le temps.
+### 2.3 Les dates (Date / Time)
+
+Les dates sont des valeurs numériques masquées.
 
 Exemples :
-- Date d’achat
-- Date de livraison
+- 01/01/2025
+- 15/03/2026
 
-Excel reconnaît automatiquement les formats de date standards.
+Comportement Excel :
+- Permet le calcul de durées
+- Utilisé dans les analyses temporelles
+- Peut être trié chronologiquement
+
+👉 Exemple métier :
+suivi des dépenses mensuelles, échéances, planning
 
 ---
 
 ## 3. Saisie et modification des données
 
-### 3.1 Saisir une donnée
-- Cliquer sur une cellule
-- Taper la donnée
-- Appuyer sur Entrée pour valider
+---
+
+### 3.1 Saisie de données (Data Entry)
+
+Procédure standard :
+1. Sélectionner une cellule
+2. Saisir la valeur
+3. Valider avec Entrée
+
+👉 Bonne pratique :
+Toujours vérifier la cellule active avant de saisir.
 
 ---
 
-### 3.2 Modifier une donnée
-Deux méthodes :
+### 3.2 Modification de cellule
 
-- Double-cliquer sur la cellule
-- Ou sélectionner la cellule puis modifier dans la barre de formule
+Deux méthodes professionnelles :
 
----
+- Double-clic dans la cellule (édition directe)
+- Barre de formule (méthode la plus propre pour éviter les erreurs)
 
-### 3.3 Supprimer une donnée
-- Sélectionner la cellule
-- Appuyer sur la touche Suppr
+👉 Astuce Excel :
+La barre de formule est plus fiable pour les longues valeurs ou formules.
 
 ---
 
-## 4. Mise en forme des données
+### 3.3 Suppression de données
 
-La mise en forme permet de rendre vos données lisibles, compréhensibles et professionnelles.
+- Touche Suppr (Delete)
+- Ou effacer le contenu sans casser la structure
+
+⚠️ Attention :
+Ne jamais supprimer une cellule sans comprendre son impact sur les formules.
+
+---
+
+## 4. Mise en forme des données (Data Formatting)
+
+La mise en forme ne change pas les données, seulement leur apparence.
 
 ---
 
 ### 4.1 Mise en forme du texte
-Accessible depuis l’onglet Accueil :
 
-- Modifier la police
-- Modifier la taille
-- Mettre en gras
-- Appliquer une couleur
+Dans l’onglet Accueil, groupe Police :
 
----
+- Gras (Bold)
+- Taille de police
+- Couleur du texte
+- Style de police
 
-### 4.2 Alignement
-Permet de positionner le contenu dans la cellule :
-
-- Alignement horizontal (gauche, centre, droite)
-- Alignement vertical (haut, milieu, bas)
+👉 Objectif :
+Améliorer la lisibilité et hiérarchiser l’information.
 
 ---
 
-### 4.3 Bordures
-Permet de structurer visuellement un tableau.
+### 4.2 Alignement des cellules
 
-- Ajouter des bordures autour des cellules
-- Délimiter les en-têtes et les données
+Dans le groupe Alignement :
+
+- Alignement horizontal : gauche, centre, droite
+- Alignement vertical : haut, milieu, bas
+
+👉 Exemple professionnel :
+- Titres centrés
+- Données alignées à droite (valeurs numériques)
 
 ---
 
-### 4.4 Couleur de fond
-Permet de mettre en évidence certaines informations.
+### 4.3 Bordures (Borders)
 
-Exemple :
+Les bordures permettent de structurer visuellement un tableau.
+
+Utilisation :
+- Délimiter un tableau
+- Séparer les en-têtes des données
+- Améliorer la lecture
+
+👉 Bonne pratique :
+Toujours encadrer un tableau complet.
+
+---
+
+### 4.4 Couleur de remplissage (Fill Color)
+
+Permet de hiérarchiser les informations.
+
+Exemples :
 - En-têtes en couleur
-- Totaux en surbrillance
+- Totaux mis en évidence
+- Sections importantes surlignées
+
+👉 Astuce Excel :
+Utiliser des couleurs sobres pour garder un aspect professionnel.
 
 ---
 
-## 5. Format des données
+## 5. Formats de données (Number Formatting)
+
+---
 
 ### 5.1 Format monétaire
-Permet d’afficher les montants avec une devise.
+
+Permet d’afficher les valeurs financières correctement.
 
 Exemple :
-5000 devient 5 000
+50000 → 50 000 (avec séparateur de milliers)
+
+👉 Utilisation :
+budgets, dépenses, revenus
 
 ---
 
 ### 5.2 Format pourcentage
-Permet d’exprimer une valeur en pourcentage.
+
+Convertit une valeur décimale en pourcentage.
 
 Exemple :
-0,25 devient 25 %
+0,25 → 25 %
+
+👉 Utilisation :
+taux, ratios, performance
 
 ---
 
 ### 5.3 Format date
-Permet d’afficher correctement une date.
+
+Permet d’afficher et d’exploiter des dates.
 
 Exemple :
 01/01/2025
 
+👉 Utilisation :
+planning, suivi, analyse temporelle
+
 ---
 
-## 6. Cas pratique
+## 6. Cas pratique – Budget mensuel professionnel
+
+---
 
 ### 6.1 Objectif
-Créer un tableau de dépenses mensuelles clair et professionnel.
+Créer un tableau structuré et exploitable pour analyser un budget mensuel.
 
 ---
 
-### 6.2 Étapes
+### 6.2 Données à saisir
 
-1. Ouvrir Excel et créer un nouveau classeur
+Copie ce tableau dans Excel :
 
-2. Saisir les en-têtes :
-   - A1 : Catégorie
-   - B1 : Montant
-
-3. Saisir les données :
-   - A2 : Loyer       | B2 : 150000
-   - A3 : Nourriture  | B3 : 50000
-   - A4 : Transport   | B4 : 20000
-   - A5 : Internet    | B5 : 15000
-
-4. Appliquer une mise en forme :
-   - Mettre les en-têtes en gras
-   - Centrer les titres
-   - Ajouter des bordures au tableau
-   - Appliquer une couleur de fond aux en-têtes
-
-5. Appliquer un format monétaire à la colonne B
+| Catégorie   | Montant |
+|------------|----------|
+| Loyer      | 150000   |
+| Nourriture | 50000    |
+| Transport  | 20000    |
+| Internet   | 15000    |
+| Loisirs    | 10000    |
 
 ---
 
-### 6.3 Résultat attendu
-Un tableau structuré, lisible et professionnel, prêt à être utilisé pour des analyses.
+### 6.3 Étapes professionnelles
+
+#### Étape 1 : Structuration
+- Vérifier que chaque donnée est dans la bonne cellule
+- Ne pas mélanger texte et nombres dans une même colonne
+
+---
+
+#### Étape 2 : Mise en forme des en-têtes
+- Mettre la ligne 1 en gras
+- Centrer les titres
+- Appliquer une couleur de fond légère
+
+---
+
+#### Étape 3 : Format des montants
+- Sélectionner la colonne des montants
+- Appliquer un format monétaire
+- Vérifier l’alignement à droite
+
+---
+
+#### Étape 4 : Amélioration visuelle
+- Ajouter des bordures complètes
+- Uniformiser les colonnes
+- Ajuster la largeur des colonnes (AutoFit)
+
+---
+
+### 6.4 Résultat attendu
+
+Tu dois obtenir :
+- Un tableau propre et structuré
+- Des données lisibles et alignées
+- Une présentation professionnelle prête pour analyse
 
 ---
 
 ## 7. Évaluation des acquis
 
-Répondre à la question suivante :
+Explique clairement la différence entre :
+- une donnée de type texte
+- une donnée de type nombre
 
-Quelle est la différence entre une donnée de type texte et une donnée de type nombre dans Excel ?
+et donne un exemple concret pour chacun.
+
+---
+
+## 8. Recommandations professionnelles
+
+- Toujours structurer les données avant de formater
+- Ne jamais mélanger texte et chiffres dans une même colonne
+- Éviter les couleurs excessives
+- Penser “analyse” avant “esthétique”
+- Travailler comme un analyste, pas comme un simple utilisateur
 
 ---
 
-## 8. Recommandations pédagogiques
+## Conclusion
 
-- Toujours vérifier le type de donnée saisi
-- Ne pas mélanger texte et nombres dans une même colonne
-- Appliquer une mise en forme simple et cohérente
-- Éviter les excès de couleurs
-- Structurer les tableaux dès le départ
+La saisie et la mise en forme sont la base de tout travail sérieux sur Excel.
 
----
+Un bon fichier Excel ne commence pas par des formules…  
+il commence par des données propres, bien structurées et bien présentées.
