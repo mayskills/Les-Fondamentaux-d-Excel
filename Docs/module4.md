@@ -298,3 +298,11 @@ Dans ce module, tu as appris à :
 Si tu maîtrises ce module, tu ne vois plus Excel comme un simple tableau, mais comme un outil d’analyse.
 
 C’est exactement ce que font les professionnels.
+
+---
+
+⬅️ Module précédent : [Module 3 – Calculs de base](Docs/module3.md)
+
+📍 Module actuel : Module 4 – Organisation et Graphiques 
+
+🏠 Accueil : [Programme Excel](../README.md)
