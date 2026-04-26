@@ -149,7 +149,7 @@ Dans l’onglet Accueil, groupe Police :
 
   <p align="center">
   <img src="../img/miseenformetexte.jpg">
-</p>
+  </p>
 
 
 👉 Objectif :
