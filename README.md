@@ -2,14 +2,12 @@
 
 ## 📌 Présentation
 
-Ce dépôt contient un programme complet pour apprendre Microsoft Excel de manière progressive, structurée et pratique.
+Ce dépôt contient un programme complet et structuré pour apprendre Microsoft Excel de manière progressive, logique et orientée pratique.
 
-L’objectif est de permettre à toute personne débutante de :
-- Comprendre rapidement les bases d’Excel
-- S’exercer avec des cas concrets
-- Devenir autonome dans un contexte personnel ou professionnel
+L’objectif est de transformer un débutant en utilisateur autonome capable de construire, organiser et analyser des données dans un contexte professionnel ou personnel.
 
-Ce programme est basé sur une approche simple : **comprendre, pratiquer, appliquer**.
+La méthode utilisée repose sur une progression simple :
+**comprendre → pratiquer → appliquer**
 
 ---
 
@@ -17,125 +15,127 @@ Ce programme est basé sur une approche simple : **comprendre, pratiquer, appliq
 
 À la fin de ce programme, vous serez capable de :
 
-- Naviguer efficacement dans Excel
-- Saisir et organiser des données correctement
+- Comprendre et maîtriser l’interface Excel
+- Saisir et structurer des données propres et exploitables
 - Appliquer une mise en forme professionnelle
-- Réaliser des calculs simples
-- Trier et filtrer des données
-- Créer des graphiques clairs et utiles
+- Utiliser des formules et fonctions essentielles
+- Organiser des données avec tri et filtrage
+- Créer des graphiques pertinents pour l’analyse
+
+---
+
+## 🧭 Plan du programme (Accès aux modules)
+
+Clique sur chaque module pour accéder au contenu :
+
+- [Module 1 – Interface et Navigation](Docs/module1.md)
+- [Module 2 – Saisie et Mise en forme](Docs/module2.md)
+- [Module 3 – Calculs de base](Docs/module3.md)
+- [Module 4 – Organisation et Graphiques](Docs/module3.md)
 
 ---
 
 ## 🧩 Structure du programme
 
 ### 🔹 Module 1 – Interface et Navigation
-
-**Objectif :** Comprendre l’environnement Excel
+**Objectif :** Comprendre l’environnement Excel et savoir s’y déplacer efficacement.
 
 Contenu :
-- Classeur, feuilles, cellules
-- Lignes et colonnes
-- Ruban et onglets
-- Barre de formule
-- Navigation avec clavier et souris
+- Structure d’un classeur (feuilles, cellules, lignes, colonnes)
+- Compréhension du ruban et des onglets
+- Utilisation de la barre de formule
+- Navigation clavier et souris
 - Sélection de cellules
 
-📌 Cas pratique :
-Création d’une liste simple (courses ou budget)
+📌 Cas pratique : création d’une liste simple (budget ou courses)
 
 ---
 
 ### 🔹 Module 2 – Saisie et Mise en forme
-
-**Objectif :** Saisir et présenter les données de manière claire
+**Objectif :** Saisir des données propres et les présenter de manière professionnelle.
 
 Contenu :
 - Types de données (texte, nombre, date)
-- Modification des données
-- Mise en forme :
-  - Police
-  - Couleurs
-  - Bordures
-  - Alignement
-- Formats :
-  - Monétaire
-  - Pourcentage
+- Saisie et modification des cellules
+- Mise en forme (police, couleurs, bordures, alignement)
+- Formats de nombres (monétaire, pourcentage, date)
 
-📌 Cas pratique :
-Création d’un tableau de dépenses mensuelles
+📌 Cas pratique : tableau de dépenses mensuelles
 
 ---
 
 ### 🔹 Module 3 – Calculs de base
-
-**Objectif :** Automatiser les calculs simples
+**Objectif :** Automatiser les calculs avec les formules et fonctions essentielles.
 
 Contenu :
-- Formules de base (+, -, *, /)
-- Fonction `SOMME`
+- Opérations de base (+, -, *, /)
 - Références de cellules
-- Recopie de formules
+- Fonction SOMME
+- Fonctions de base (MOYENNE, MIN, MAX, NB, SI)
+- Recopie des formules
 
-📌 Cas pratique :
-Calcul du total des dépenses
+📌 Cas pratique : analyse d’un budget simple
 
 ---
 
 ### 🔹 Module 4 – Organisation et Graphiques
-
-**Objectif :** Organiser et visualiser les données
+**Objectif :** Structurer, analyser et visualiser les données.
 
 Contenu :
 - Tri des données
 - Filtrage
-- Mise en tableau
-- Création de graphiques :
-  - Diagramme en barres
-  - Diagramme circulaire
+- Mise en tableau Excel
+- Création de graphiques (barres, circulaire)
 
-📌 Cas pratique :
-Analyse visuelle d’un budget
+📌 Cas pratique : analyse visuelle d’un budget
 
 ---
 
-## 🧠 Méthodologie
+## 🧠 Méthodologie pédagogique
 
-Chaque module suit une méthode simple :
+Chaque module suit une approche professionnelle :
 
-1. Explication claire des concepts  
-2. Exercice pratique  
-3. Question de validation  
-
-Objectif : apprendre en pratiquant.
+1. Explication claire des notions
+2. Mise en pratique immédiate
+3. Cas concret basé sur la vie réelle
+4. Évaluation des acquis
 
 ---
 
 ## 🛠️ Outils nécessaires
 
-- Microsoft Excel (version bureau recommandée)
+- Microsoft Excel (version desktop recommandée)
 - Alternatives possibles :
   - Excel Online
   - Google Sheets
 
 ---
 
-## 💡 Bonnes pratiques
+## 💡 Bonnes pratiques professionnelles
 
-- Structurer les données en colonnes
-- Éviter les cellules vides dans un tableau
-- Donner des noms explicites aux colonnes
-- Vérifier les données avant les calculs
-- Utiliser les raccourcis clavier pour gagner du temps
+- Toujours structurer les données avant les calculs
+- Utiliser des tableaux Excel pour organiser les données
+- Éviter les cellules vides dans les plages de données
+- Nommer clairement les colonnes
+- Vérifier les données avant toute analyse
+- Utiliser les raccourcis clavier pour gagner en productivité
 
 ---
 
 ## 📊 Cas d’usage concrets
 
-Ce programme utilise des exemples inspirés de la vie réelle :
+Ce programme s’appuie sur des situations réelles :
 
 - Gestion de budget personnel
-- Suivi des dépenses
-- Liste de courses
+- Suivi des dépenses mensuelles
+- Liste de courses structurée
 - Gestion de stock simple
-- Tableaux de suivi
+- Tableaux de suivi et reporting
 
+---
+
+## 🚀 Résultat attendu
+
+À la fin de ce programme, vous ne verrez plus Excel comme un simple tableau, mais comme un véritable outil d’analyse et de prise de décision.
+
+---
