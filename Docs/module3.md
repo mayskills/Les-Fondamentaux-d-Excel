@@ -1,259 +1,374 @@
-# Module 3 – Calculs de base
+# Module 3 – Calculs de base (Formules et Fonctions Excel)
 
 ## Objectif pédagogique
-À l’issue de ce module, l’apprenant sera capable de :
-- Comprendre le fonctionnement des formules dans Excel
-- Utiliser les opérations mathématiques de base
-- Comprendre la syntaxe d’une fonction (structure et arguments)
-- Utiliser les fonctions les plus courantes
-- Recopier des formules efficacement
+À la fin de ce module, tu dois être capable de :
+- Comprendre la logique des formules Excel (et ne plus en avoir peur)
+- Construire des calculs simples et fiables
+- Utiliser les fonctions essentielles d’Excel en autonomie
+- Comprendre la syntaxe d’une fonction comme un langage
+- Recopier des formules sans erreur
 
 ---
 
-## 1. Introduction aux calculs dans Excel
+## 1. Introduction : comprendre la logique d’Excel
 
-Dans Excel, tous les calculs commencent par une formule.
+Excel n’est pas un logiciel “magique”. Il fonctionne avec une règle très simple :
 
-Une formule est une expression qui commence toujours par le signe égal (=).  
-Elle permet d’effectuer un calcul en utilisant des nombres ou des cellules.
+> Tout calcul commence par le signe égal (=)
+
+Sans ce signe, Excel considère que tu écris du texte.
+
+---
+
+### Exemple concret
+
+- A1 = 5000  
+- B1 = 3000  
+
+Formule :
+= A1 + B1  
+
+Résultat :
+8000
+
+👉 Excel ne calcule que ce que tu lui demandes explicitement.
+
+---
+
+## 2. Les opérations de base (le langage des calculs)
+
+Excel utilise des opérateurs mathématiques standards.
+
+| Opération        | Symbole | Exemple        | Résultat |
+|-----------------|--------|----------------|----------|
+| Addition        | +      | =A1+B1         | Somme    |
+| Soustraction    | -      | =A1-B1         | Différence |
+| Multiplication  | *      | =A1*B1         | Produit  |
+| Division        | /      | =A1/B1         | Quotient |
+
+---
+
+### Point important (niveau professionnel)
+Toujours privilégier les références de cellules plutôt que les valeurs fixes.
+
+❌ Mauvais :
+=5000+3000  
+
+✔️ Bon :
+=A1+B1  
+
+👉 Pourquoi ?
+Parce que si les données changent, ton calcul s’actualise automatiquement.
+
+---
+
+## 3. Les références de cellules (le cœur d’Excel)
+
+Une référence de cellule est l’adresse d’une donnée.
 
 Exemple :
-= A1 + B1
+- A1 = 5000
+- B1 = 3000
 
-Cela signifie : additionner la valeur de A1 et de B1.
-
----
-
-## 2. Les opérations de base
-
-Excel utilise des symboles simples pour les calculs :
-
-| Opération        | Symbole | Exemple        |
-|-----------------|--------|----------------|
-| Addition        | +      | =A1 + B1       |
-| Soustraction    | -      | =A1 - B1       |
-| Multiplication  | *      | =A1 * B1       |
-| Division        | /      | =A1 / B1       |
-
-Conseil :  
-Toujours utiliser les cellules plutôt que les valeurs directement pour garder des calculs dynamiques.
+Formule :
+= A1 + B1 → 8000
 
 ---
 
-## 3. Comprendre les références de cellules
+### Ce que tu dois comprendre
 
-Une référence de cellule permet d’utiliser une valeur sans la recopier.
+Excel fonctionne comme un système dynamique :
+- Tu changes une valeur
+- Tous les résultats se mettent à jour automatiquement
 
-Exemple :
-Si A1 = 5000 et B1 = 3000  
-Alors :
-
-= A1 + B1 → donne 8000
-
-Si vous modifiez A1, le résultat change automatiquement.
+👉 C’est ce qui fait la puissance d’Excel.
 
 ---
 
-## 4. Les fonctions dans Excel
+## 4. Les fonctions Excel (niveau fondamental)
 
-### 4.1 Définition
-Une fonction est une formule déjà prête qui effectue un calcul spécifique.
+### 4.1 Définition simple
+Une fonction est une formule préconçue qui exécute un calcul automatiquement.
+
+Au lieu d’écrire :
+=A1+A2+A3+A4  
+
+Tu peux écrire :
+=SOMME(A1:A4)
 
 ---
 
-### 4.2 Syntaxe d’une fonction
+## 4.2 Syntaxe d’une fonction (très important)
 
 Structure générale :
 
 = NOM_FONCTION(argument1 ; argument2 ; ...)
 
-Explication simple :
-- Le signe = indique un calcul
-- Le nom de la fonction indique ce que vous voulez faire
-- Les arguments sont les données utilisées dans le calcul
+---
+
+### Explication simple mais essentielle
+
+- = → démarre le calcul
+- NOM_FONCTION → ce que tu veux faire (SOMME, MOYENNE…)
+- Arguments → les données utilisées
+- ; → sépare les arguments
 
 ---
 
-## 5. Les fonctions les plus utilisées (niveau débutant)
+### Deux types d’arguments
 
-Nous allons voir les fonctions essentielles que vous utiliserez très souvent.
-
----
-
-### 5.1 Fonction SOMME
-
-Objectif : additionner plusieurs valeurs
-
-Syntaxe :
-= SOMME(plage)
-
-Exemple :
-= SOMME(B2:B5)
-
-Cela additionne toutes les valeurs de B2 à B5.
+- Cellules individuelles : A1 ; A2
+- Plages : A1:A10
 
 ---
 
-### 5.2 Fonction MOYENNE
-
-Objectif : calculer la moyenne
-
-Syntaxe :
-= MOYENNE(plage)
-
-Exemple :
-= MOYENNE(B2:B5)
-
-Cela calcule la moyenne des valeurs.
+## 5. Les fonctions essentielles (à maîtriser absolument)
 
 ---
 
-### 5.3 Fonction MIN
+## 5.1 SOMME (la fonction la plus utilisée)
 
-Objectif : trouver la plus petite valeur
+### Rôle :
+Additionner une série de valeurs
 
-Syntaxe :
-= MIN(plage)
+### Syntaxe :
+=SOMME(plage)
 
-Exemple :
-= MIN(B2:B5)
+### Exemple :
+=SOMME(B2:B5)
 
----
-
-### 5.4 Fonction MAX
-
-Objectif : trouver la plus grande valeur
-
-Syntaxe :
-= MAX(plage)
-
-Exemple :
-= MAX(B2:B5)
+👉 Addition automatique de toutes les valeurs de B2 à B5
 
 ---
 
-### 5.5 Fonction NB
-
-Objectif : compter le nombre de cellules contenant des nombres
-
-Syntaxe :
-= NB(plage)
-
-Exemple :
-= NB(B2:B5)
+### Utilisation réelle :
+- budgets
+- ventes
+- dépenses
+- totaux généraux
 
 ---
 
-### 5.6 Fonction NBVAL
+## 5.2 MOYENNE
 
-Objectif : compter les cellules non vides
+### Rôle :
+Calculer la valeur moyenne
 
-Syntaxe :
-= NBVAL(plage)
+### Syntaxe :
+=MOYENNE(plage)
 
-Exemple :
-= NBVAL(A2:A5)
-
----
-
-### 5.7 Fonction SI
-
-Objectif : faire un test logique
-
-Syntaxe :
-= SI(condition ; valeur_si_vrai ; valeur_si_faux)
-
-Explication simple :
-- condition : ce que vous testez
-- valeur_si_vrai : résultat si la condition est vraie
-- valeur_si_faux : résultat si la condition est fausse
-
-Exemple :
-= SI(B2 > 30000 ; "Élevé" ; "Faible")
+### Exemple :
+=MOYENNE(B2:B5)
 
 ---
 
-## 6. Recopie des formules
-
-### 6.1 Principe
-Vous n’avez pas besoin de retaper une formule plusieurs fois.
-
----
-
-### 6.2 Méthode
-- Cliquer sur la cellule contenant la formule
-- Faire glisser le petit carré en bas à droite (poignée de recopie)
+### Utilisation réelle :
+- moyenne des dépenses
+- moyenne des notes
+- performance moyenne
 
 ---
 
-### 6.3 Résultat
-Excel adapte automatiquement les références.
+## 5.3 MIN
+
+### Rôle :
+Trouver la plus petite valeur
+
+### Syntaxe :
+=MIN(plage)
+
+### Exemple :
+=MIN(B2:B5)
 
 ---
 
-## 7. Cas pratique
-
-### 7.1 Objectif
-Calculer et analyser des dépenses mensuelles.
+### Utilisation réelle :
+- dépense minimale
+- plus petite vente
+- valeur la plus basse
 
 ---
 
-### 7.2 Étapes
+## 5.4 MAX
 
-1. Saisir les données :
+### Rôle :
+Trouver la plus grande valeur
 
-| A            | B      |
-|--------------|--------|
-| Loyer        | 150000 |
-| Nourriture   | 50000  |
-| Transport    | 20000  |
-| Internet     | 15000  |
+### Syntaxe :
+=MAX(plage)
 
-2. Calculer le total :
-= SOMME(B2:B5)
+### Exemple :
+=MAX(B2:B5)
 
-3. Calculer la moyenne :
-= MOYENNE(B2:B5)
+---
 
-4. Trouver la dépense minimale :
-= MIN(B2:B5)
+### Utilisation réelle :
+- plus grosse dépense
+- meilleure performance
+- valeur maximale
 
-5. Trouver la dépense maximale :
-= MAX(B2:B5)
+---
 
-6. Ajouter une colonne C pour analyse :
+## 5.5 NB
+
+### Rôle :
+Compter uniquement les cellules contenant des nombres
+
+### Syntaxe :
+=NB(plage)
+
+### Exemple :
+=NB(B2:B5)
+
+---
+
+## 5.6 NBVAL
+
+### Rôle :
+Compter toutes les cellules non vides
+
+### Syntaxe :
+=NBVAL(plage)
+
+### Exemple :
+=NBVAL(A2:A5)
+
+---
+
+## 5.7 SI (fonction logique essentielle)
+
+### Rôle :
+Faire une comparaison logique
+
+---
+
+### Syntaxe :
+=SI(condition ; valeur_si_vrai ; valeur_si_faux)
+
+---
+
+### Explication claire
+
+- condition → test (ex : B2 > 30000)
+- valeur_si_vrai → résultat si vrai
+- valeur_si_faux → résultat si faux
+
+---
+
+### Exemple concret :
+=SI(B2>30000 ; "Élevé" ; "Normal")
+
+---
+
+### Utilisation réelle :
+- classification des dépenses
+- validation de performance
+- prise de décision automatique
+
+---
+
+## 6. Recopie des formules (gain de productivité)
+
+### Principe
+Tu n’as pas besoin de refaire une formule ligne par ligne.
+
+---
+
+### Méthode professionnelle
+- sélectionner la cellule
+- utiliser la poignée de recopie (petit carré en bas à droite)
+- glisser vers le bas
+
+---
+
+### Ce que fait Excel automatiquement
+- adapte les références (A1 devient A2, A3…)
+- conserve la logique du calcul
+
+---
+
+## 7. Cas pratique – Analyse de budget
+
+---
+
+## 7.1 Données à saisir
+
+| Catégorie   | Montant |
+|------------|----------|
+| Loyer      | 150000   |
+| Nourriture | 50000    |
+| Transport  | 20000    |
+| Internet   | 15000    |
+
+---
+
+## 7.2 Étapes d’analyse
+
+### Étape 1 : Total des dépenses
+=SOMME(B2:B5)
+
+---
+
+### Étape 2 : Moyenne
+=MOYENNE(B2:B5)
+
+---
+
+### Étape 3 : Minimum
+=MIN(B2:B5)
+
+---
+
+### Étape 4 : Maximum
+=MAX(B2:B5)
+
+---
+
+### Étape 5 : Analyse avec SI
 
 Dans C2 :
-= SI(B2 > 30000 ; "Dépense élevée" ; "Dépense normale")
+=SI(B2>30000;"Dépense élevée";"Dépense normale")
 
-Recopier vers le bas
-
----
-
-### 7.3 Résultat attendu
-Un tableau avec :
-- total
-- moyenne
-- minimum
-- maximum
-- classification des dépenses
+Puis recopier vers le bas.
 
 ---
 
-## 8. Bonnes pratiques
+## 7.3 Résultat attendu
 
-- Toujours commencer par =
+Tu obtiens :
+- un total automatique
+- une moyenne claire
+- une vision des extrêmes (MIN / MAX)
+- une analyse intelligente des dépenses
+
+---
+
+## 8. Bonnes pratiques professionnelles
+
+- Toujours commencer une formule par =
+- Toujours utiliser des plages (A1:A10) plutôt que des cellules isolées
 - Vérifier les parenthèses
-- Utiliser des plages (ex : B2:B5)
-- Ne pas mélanger texte et nombres
-- Tester les formules avec de petites données
+- Ne jamais mélanger texte et nombres dans une même colonne
+- Tester les formules sur de petites données avant de les généraliser
 
 ---
 
 ## 9. Évaluation des acquis
 
-Répondre à la question suivante :
+Explique clairement :
 
-Explique avec tes mots la structure d’une fonction Excel et donne un exemple simple.
+- la structure d’une fonction Excel
+- le rôle des arguments
+- et donne un exemple concret d’une fonction que tu as utilisée
 
 ---
+
+## Conclusion du module
+
+Les formules sont le cœur d’Excel.
+
+Si tu comprends ce module :
+- tu passes de simple utilisateur
+- à utilisateur capable d’automatiser des calculs
+
+C’est ici que commence la vraie puissance d’Excel.
