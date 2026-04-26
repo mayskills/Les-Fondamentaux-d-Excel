@@ -328,10 +328,10 @@ il commence par des données propres, bien structurées et bien présentées.
 
 ---
 
-⬅️ Module précédent : [Module 1 – Interface et Navigation](Docs/module1.md)  
+⬅️ Module précédent : [Module 1 – Interface et Navigation](module1.md)  
 
 📍 Module actuel : Module 2 – Saisie et Mise en forme 
 
-➡️ Module suivant : [Module 3 – Calculs de base](Docs/module3.md)
+➡️ Module suivant : [Module 3 – Calculs de base](module3.md)
 
 🏠 Accueil : [Programme Excel](../README.md)
