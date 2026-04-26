@@ -301,7 +301,7 @@ C’est exactement ce que font les professionnels.
 
 ---
 
-⬅️ Module précédent : [Module 3 – Calculs de base](Docs/module3.md)
+⬅️ Module précédent : [Module 3 – Calculs de base](module3.md)
 
 📍 Module actuel : Module 4 – Organisation et Graphiques 
 
