@@ -244,8 +244,8 @@ Excel n’est pas compliqué, mais il faut apprendre à se repérer dedans comme
 
 Une fois que tu es à l’aise avec l’interface, tout le reste devient beaucoup plus simple.
 
+---
 
-
-➡️ Module suivant : [Module 2 – Saisie et Mise en forme](Docs/module2.md) 
+➡️ Module suivant : [Module 2 – Saisie et Mise en forme](module2.md) 
 
 🏠 Accueil : [Programme Excel](README.md)
