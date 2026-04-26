@@ -37,6 +37,10 @@ Exemple concret :
 ### 1.2 Les feuilles
 Une feuille est une page à l’intérieur du classeur.
 
+<p align="center">
+  <img src="../img/la feuille active.jpg" width="500" height="500">
+</p>
+
 Chaque feuille sert à organiser un type de données.
 
 Exemple simple :
@@ -51,6 +55,11 @@ Exemple simple :
 ### 1.3 Les colonnes
 Les colonnes sont les lignes verticales dans Excel.
 
+<p align="center">
+  <img src="../img/COLONNE.jpg" width="500" height="500">
+</p>
+
+
 Elles sont identifiées par des lettres :
 A, B, C, D, etc.
 
@@ -64,6 +73,10 @@ Exemple :
 ### 1.4 Les lignes
 Les lignes sont les lignes horizontales.
 
+<p align="center">
+  <img src="../img/LIGNE.jpg" width="500" height="500">
+</p>
+
 Elles sont identifiées par des chiffres :
 1, 2, 3, 4, etc.
 
@@ -76,6 +89,10 @@ Exemple :
 
 ### 1.5 Les cellules
 Une cellule est le point d’intersection entre une ligne et une colonne.
+
+<p align="center">
+  <img src="../img/cellule.jpg" width="500" height="500">
+</p>
 
 Exemple :
 - A1 = colonne A + ligne 1
@@ -93,6 +110,10 @@ Quand tu ouvres Excel, tu vois plusieurs zones importantes.
 
 ### 2.1 Le ruban
 Le ruban est la grande barre en haut de l’écran.
+
+<p align="center">
+  <img src="../img/ruban.jpg" width="500" height="500">
+</p>
 
 C’est là que tu trouves tous les outils :
 - écrire
@@ -120,6 +141,10 @@ Les plus importants :
 
 ### 2.3 La barre de formule
 La barre de formule est située au-dessus des cellules.
+
+<p align="center">
+  <img src="../img/La barre de formule.jpg" width="500" height="500">
+</p>
 
 Elle te permet de :
 - voir ce que contient une cellule
