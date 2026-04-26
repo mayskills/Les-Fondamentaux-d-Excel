@@ -248,4 +248,4 @@ Une fois que tu es à l’aise avec l’interface, tout le reste devient beaucou
 
 ➡️ Module suivant : [Module 2 – Saisie et Mise en forme](module2.md) 
 
-🏠 Accueil : [Programme Excel](./README.md)
+🏠 Accueil : [Programme Excel](../README.md)
