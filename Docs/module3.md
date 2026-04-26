@@ -137,6 +137,10 @@ Additionner une série de valeurs
 ### Exemple :
 =SOMME(B2:B5)
 
+<p align="center">
+  <img src="../img/somme.png" width="500">
+</p>
+
 👉 Addition automatique de toutes les valeurs de B2 à B5
 
 ---
@@ -160,6 +164,9 @@ Calculer la valeur moyenne
 ### Exemple :
 =MOYENNE(B2:B5)
 
+<p align="center">
+  <img src="../img/moyenne.png" width="500">
+</p>
 ---
 
 ### Utilisation réelle :
@@ -179,6 +186,10 @@ Trouver la plus petite valeur
 
 ### Exemple :
 =MIN(B2:B5)
+
+<p align="center">
+  <img src="../img/MIN.png" width="500">
+</p>
 
 ---
 
@@ -200,6 +211,10 @@ Trouver la plus grande valeur
 ### Exemple :
 =MAX(B2:B5)
 
+<p align="center">
+  <img src="../img/MAX.png" width="500">
+</p>
+
 ---
 
 ### Utilisation réelle :
@@ -220,6 +235,10 @@ Compter uniquement les cellules contenant des nombres
 ### Exemple :
 =NB(B2:B5)
 
+<p align="center">
+  <img src="../img/nb.png" width="500">
+</p>
+
 ---
 
 ## 5.6 NBVAL
@@ -232,6 +251,10 @@ Compter toutes les cellules non vides
 
 ### Exemple :
 =NBVAL(A2:A5)
+
+<p align="center">
+  <img src="../img/nbval.png" width="500">
+</p>
 
 ---
 
@@ -257,6 +280,10 @@ Faire une comparaison logique
 
 ### Exemple concret :
 =SI(B2>30000 ; "Élevé" ; "Normal")
+
+<p align="center">
+  <img src="../img/FONCTION SI.png" width="500">
+</p>
 
 ---
 
