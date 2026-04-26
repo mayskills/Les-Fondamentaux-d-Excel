@@ -112,7 +112,7 @@ Quand tu ouvres Excel, tu vois plusieurs zones importantes.
 Le ruban est la grande barre en haut de l’écran.
 
 <p align="center">
-  <img src="../img/ruban.jpg" width="300" height="800">
+  <img src="../img/ruban.jpg" width="500" height="800">
 </p>
 
 C’est là que tu trouves tous les outils :
