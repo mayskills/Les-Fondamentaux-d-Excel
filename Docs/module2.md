@@ -32,7 +32,7 @@ Si tu entres des données mal structurées :
 Excel reconnaît plusieurs types de données. Les maîtriser est fondamental.
 
 <p align="center">
-  <img src="../img/typededonnees.jpg" width="500">
+  <img src="../img/typededonnees.jpg">
 </p>
 
 ---
@@ -148,7 +148,7 @@ Dans l’onglet Accueil, groupe Police :
 - Style de police
 
   <p align="center">
-  <img src="../img/miseenformetexte.jpg" width="500">
+  <img src="../img/miseenformetexte.jpg">
 </p>
 
 
