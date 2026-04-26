@@ -375,10 +375,10 @@ C’est ici que commence la vraie puissance d’Excel.
 
 ---
 
-⬅️ Module précédent : [Module 2 – Saisie et Mise en forme](Docs/module2.md)  
+⬅️ Module précédent : [Module 2 – Saisie et Mise en forme](module2.md)  
 
 📍 Module actuel : Module 3 – Calculs de base 
 
-➡️ Module suivant :  [Module 4 – Organisation et Graphiques](Docs/module3.md)
+➡️ Module suivant :  [Module 4 – Organisation et Graphiques](module4.md)
 
 🏠 Accueil : [Programme Excel](../README.md)
