@@ -1,153 +1,234 @@
 # Module 4 – Organisation et Graphiques
 
 ## Objectif pédagogique
-À l’issue de ce module, l’apprenant sera capable de :
-- Organiser efficacement des données dans Excel
-- Trier et filtrer des informations
-- Structurer des données sous forme de tableau
-- Créer des graphiques simples et pertinents
-- Analyser visuellement un budget
+Dans ce module, tu vas apprendre à faire une chose très importante en Excel : **transformer des données brutes en informations claires et compréhensibles**.
+
+À la fin, tu dois être capable de :
+- Organiser un tableau proprement
+- Trier et filtrer des données sans te perdre
+- Utiliser les tableaux Excel correctement
+- Créer des graphiques simples mais utiles
+- Comprendre ce que disent tes données
 
 ---
 
-## 1. Tri des données
+# 1. Tri des données
 
-### 1.1 Définition
-Le tri permet de réorganiser les données dans un ordre précis afin de faciliter leur lecture et leur analyse.
+## 1.1 C’est quoi le tri ?
+Le tri, c’est simplement **mettre de l’ordre dans tes données**.
 
----
+Imagine une liste de dépenses :
+- 5000
+- 150000
+- 20000
+- 10000
 
-### 1.2 Tri simple
-Le tri simple consiste à organiser une colonne selon un seul critère :
-- Du plus petit au plus grand (ordre croissant)
-- Du plus grand au plus petit (ordre décroissant)
+Sans tri, c’est difficile à lire.
 
-Exemple :
-- Trier les dépenses du plus faible au plus élevé
-
----
-
-### 1.3 Tri personnalisé
-Le tri personnalisé permet de choisir plusieurs critères.
-
-Exemple :
-- Trier par catégorie (logement, transport, alimentation)
-- Puis par montant
+Avec le tri, tu peux :
+- voir les plus grosses dépenses
+- repérer les petites dépenses
+- analyser rapidement une situation
 
 ---
 
-### Astuces de pro
-- Toujours sélectionner tout le tableau avant de trier
-- Vérifier que les colonnes sont bien nommées
-- Ne jamais trier une seule colonne isolée dans un tableau complet
+## 1.2 Tri simple
+
+### Comment ça marche ?
+Excel peut trier :
+- du plus petit au plus grand
+- du plus grand au plus petit
+
+### Exemple concret :
+Tu as un budget :
+
+| Catégorie | Montant |
+|----------|----------|
+| Loyer    | 150000   |
+| Internet | 15000    |
+| Transport| 20000    |
+| Nourriture| 50000   |
+
+Si tu fais un tri décroissant, tu verras :
+- Loyer en premier
+- puis Nourriture
+- puis Transport
+- puis Internet
+
+### À retenir :
+Le tri aide ton cerveau à lire plus vite les données.
 
 ---
 
-## 2. Filtrage des données
+## 1.3 Tri personnalisé
 
-### 2.1 Définition
-Le filtrage permet d’afficher uniquement les données qui répondent à un critère précis.
+Le tri personnalisé est plus avancé.
 
----
+Tu peux dire à Excel :
+- d’abord trier par catégorie
+- puis par montant
 
-### 2.2 Filtre automatique
-Excel permet d’activer des filtres sur chaque colonne.
-
-Utilisation :
-- Afficher uniquement certaines catégories
-- Masquer les données inutiles
-
----
-
-### 2.3 Filtre par recherche
-Le filtre peut aussi être utilisé pour rechercher une valeur précise.
-
-Exemple :
-- Rechercher uniquement “Transport”
-- Rechercher une valeur spécifique dans une liste
+### Exemple réel :
+Dans une entreprise :
+- Regrouper toutes les dépenses de transport ensemble
+- puis les classer du plus cher au moins cher
 
 ---
 
-### Astuces de pro
-- Utiliser les filtres pour analyser rapidement de grandes listes
-- Combiner plusieurs filtres pour affiner l’analyse
-- Toujours vérifier que les filtres sont désactivés après utilisation
+### Astuce de pro
+Toujours sélectionner **tout le tableau**, sinon Excel mélange les lignes et tu perds la cohérence des données.
 
 ---
 
-## 3. Mise en tableau
+# 2. Filtrage des données
 
-### 3.1 Définition
-Transformer une plage de données en tableau structuré Excel.
-
----
-
-### 3.2 Avantages du tableau Excel
-- Mise en forme automatique
-- Tri et filtres intégrés
-- Colonnes bien structurées
-- Ajout automatique de nouvelles lignes
-- Possibilité d’ajouter une ligne de totaux
+## 2.1 C’est quoi un filtre ?
+Un filtre permet de **masquer les données inutiles** et de garder seulement ce que tu veux voir.
 
 ---
 
-### 3.3 Création d’un tableau
-- Sélectionner les données
-- Aller dans Insertion > Tableau
-- Confirmer que le tableau contient des en-têtes
+## 2.2 Exemple simple
+Tu as 100 lignes de dépenses, mais tu veux voir uniquement :
+- les transports
+
+Avec un filtre, tu peux afficher uniquement “Transport”.
 
 ---
 
-### Astuces de pro
-- Toujours utiliser des tableaux pour les données structurées
-- Donner des noms clairs aux colonnes
-- Utiliser les styles de tableau pour améliorer la lisibilité
+## 2.3 Filtre automatique
+
+Excel ajoute des petites flèches dans les colonnes.
+
+Tu peux :
+- cliquer dessus
+- choisir une catégorie
+- ou décocher ce que tu ne veux pas voir
 
 ---
 
-## 4. Création de graphiques
+## 2.4 Filtre par recherche
 
-### 4.1 Pourquoi utiliser un graphique
-Un graphique permet de transformer des données en représentation visuelle pour faciliter la compréhension.
-
----
-
-### 4.2 Diagramme en barres
-Utilisation :
-- Comparer des valeurs
-- Exemple : comparer les dépenses par catégorie
-
-Avantage :
-- Très lisible
-- Idéal pour les comparaisons
+Si tu as une grande liste :
+- tu peux taper un mot (ex : “Internet”)
+- Excel te montre uniquement les résultats correspondants
 
 ---
 
-### 4.3 Diagramme circulaire
-Utilisation :
-- Représenter une répartition
-- Exemple : part du budget par catégorie
-
-Avantage :
-- Permet de visualiser les proportions
+### Astuce de pro
+Les filtres sont puissants pour analyser rapidement un gros tableau sans le modifier.
 
 ---
 
-### Astuces de pro
-- Ne pas surcharger un graphique avec trop de données
-- Toujours ajouter un titre clair
-- Utiliser les graphiques pour raconter une histoire
+# 3. Mise en tableau
+
+## 3.1 C’est quoi un tableau Excel ?
+Un tableau Excel, ce n’est pas juste des cellules.
+
+C’est une structure intelligente qui permet :
+- un tri automatique
+- un filtre automatique
+- une mise en forme propre
+- des calculs plus simples
 
 ---
 
-## 5. Cas pratique – Analyse visuelle d’un budget
+## 3.2 Pourquoi utiliser un tableau ?
 
-### 5.1 Objectif
-Créer un tableau de budget et analyser les dépenses à l’aide de graphiques.
+Sans tableau :
+- ton fichier devient vite désorganisé
+
+Avec un tableau :
+- tout est structuré
+- Excel comprend mieux tes données
+- les formules deviennent automatiques
 
 ---
 
-### 5.2 Données à copier-coller
+## 3.3 Création d’un tableau
+
+Étapes simples :
+- sélectionner les données
+- cliquer sur “Insérer > Tableau”
+- valider “Mon tableau comporte des en-têtes”
+
+---
+
+## 3.4 Ce que tu gagnes
+
+- Les filtres apparaissent automatiquement
+- Les lignes sont stylées automatiquement
+- Quand tu ajoutes une nouvelle ligne, Excel adapte tout
+
+---
+
+### Astuce de pro
+Toujours transformer tes données en tableau dès le début. C’est une habitude de professionnel.
+
+---
+
+# 4. Création de graphiques
+
+## 4.1 Pourquoi faire un graphique ?
+Un tableau est bon pour les calculs.  
+Un graphique est bon pour comprendre rapidement.
+
+Un graphique transforme :
+- des chiffres
+en
+- image compréhensible
+
+---
+
+## 4.2 Diagramme en barres
+
+### Quand l’utiliser ?
+Quand tu veux comparer des valeurs.
+
+### Exemple :
+- Loyer = 150000
+- Nourriture = 50000
+- Transport = 20000
+
+Tu vois immédiatement :
+- ce qui coûte le plus
+- ce qui coûte le moins
+
+---
+
+## 4.3 Diagramme circulaire
+
+### Quand l’utiliser ?
+Quand tu veux montrer une répartition.
+
+### Exemple :
+Tu veux voir comment ton salaire est utilisé :
+- 50% logement
+- 30% nourriture
+- 20% transport
+
+---
+
+## 4.4 Erreurs à éviter
+- trop de catégories (le graphique devient illisible)
+- pas de titre
+- mélange de données inutiles
+
+---
+
+### Astuce de pro
+Un bon graphique doit répondre à une seule question :
+“Qu’est-ce que je veux comprendre ?”
+
+---
+
+# 5. Cas pratique – Analyse d’un budget
+
+## 5.1 Situation
+Tu veux analyser tes dépenses mensuelles pour comprendre où part ton argent.
+
+---
+
+## 5.2 Données à copier dans Excel
 
 | Catégorie   | Montant |
 |--------------|----------|
@@ -159,54 +240,61 @@ Créer un tableau de budget et analyser les dépenses à l’aide de graphiques.
 
 ---
 
-### 5.3 Étapes
+## 5.3 Étapes détaillées
 
-#### Étape 1 : Saisie des données
-- Entrer le tableau dans Excel
+### Étape 1 : Organiser les données
+- Saisir le tableau proprement
+- Vérifier qu’il n’y a pas de cellules vides
 
 ---
 
-#### Étape 2 : Mise en tableau
-- Sélectionner les données
+### Étape 2 : Transformer en tableau
+- Sélectionner tout
 - Insérer un tableau
-- Activer les filtres automatiques
+- Activer les filtres
 
 ---
 
-#### Étape 3 : Tri des données
-- Trier les montants du plus grand au plus petit
+### Étape 3 : Trier les dépenses
+- Trier du plus grand au plus petit
+- Observer la structure du budget
 
 ---
 
-#### Étape 4 : Création d’un graphique en barres
-- Sélectionner le tableau
-- Insérer un graphique en barres
-- Vérifier les axes (catégorie et montant)
-
----
-
-#### Étape 5 : Création d’un graphique circulaire
+### Étape 4 : Créer un graphique en barres
 - Sélectionner les données
-- Insérer un diagramme circulaire
-- Ajouter les pourcentages
+- Insérer un graphique en barres
+- Vérifier que les catégories et montants sont corrects
 
 ---
 
-### 5.4 Résultat attendu
-- Un tableau structuré et filtrable
-- Un graphique en barres pour comparer les dépenses
-- Un graphique circulaire pour visualiser la répartition du budget
+### Étape 5 : Créer un graphique circulaire
+- Sélectionner les données
+- Insérer un graphique circulaire
+- Activer les pourcentages
 
 ---
 
-## 6. Résumé du module
-
-Dans ce module, vous avez appris à :
-- Trier les données pour les organiser
-- Filtrer les informations pour mieux analyser
-- Transformer une plage en tableau structuré
-- Créer des graphiques pour visualiser les données
-
-Ces outils sont essentiels pour passer d’un simple tableau à une analyse claire et professionnelle des données.
+## 5.4 Résultat attendu
+À la fin, tu dois avoir :
+- un tableau propre et structuré
+- un graphique qui montre tes dépenses principales
+- un graphique qui montre la répartition de ton budget
 
 ---
+
+# 6. Résumé du module
+
+Dans ce module, tu as appris à :
+- organiser tes données correctement
+- trier pour mieux analyser
+- filtrer pour gagner du temps
+- utiliser les tableaux Excel intelligemment
+- créer des graphiques pour comprendre tes données
+
+---
+
+## Conclusion importante
+Si tu maîtrises ce module, tu ne vois plus Excel comme un simple tableau, mais comme un outil d’analyse.
+
+C’est exactement ce que font les professionnels.
