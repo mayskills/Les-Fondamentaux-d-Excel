@@ -31,6 +31,10 @@ Si tu entres des données mal structurées :
 
 Excel reconnaît plusieurs types de données. Les maîtriser est fondamental.
 
+<p align="center">
+  <img src="../img/typededonnees.jpg" width="500" height="500">
+</p>
+
 ---
 
 ### 2.1 Le texte (Text / String)
@@ -142,6 +146,11 @@ Dans l’onglet Accueil, groupe Police :
 - Taille de police
 - Couleur du texte
 - Style de police
+
+  <p align="center">
+  <img src="../img/miseenformetexte.jpg" width="500" height="500">
+</p>
+
 
 👉 Objectif :
 Améliorer la lisibilité et hiérarchiser l’information.
