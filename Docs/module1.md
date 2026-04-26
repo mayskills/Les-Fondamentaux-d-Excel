@@ -17,6 +17,7 @@ Avant de cliquer partout, il faut comprendre ce que tu as devant toi.
 
 ### 1.1 Le classeur
 Un classeur, c’est simplement ton fichier Excel.
+![Aperçu du cours](../img/Le classeur.jpg)
 
 Imagine un cahier :
 - Le fichier Excel = le cahier
