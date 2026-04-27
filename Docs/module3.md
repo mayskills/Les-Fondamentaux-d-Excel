@@ -188,7 +188,7 @@ Trouver la plus petite valeur
 =MIN(B2:B5)
 
 <p align="center">
-  <img src="../img/MIN.png" width="500">
+  <img src="../img/min.png" width="500">
 </p>
 
 ---
@@ -212,7 +212,7 @@ Trouver la plus grande valeur
 =MAX(B2:B5)
 
 <p align="center">
-  <img src="../img/MAX.png" width="500">
+  <img src="../img/max.png" width="500">
 </p>
 
 ---
@@ -282,7 +282,7 @@ Faire une comparaison logique
 =SI(B2>30000 ; "Élevé" ; "Normal")
 
 <p align="center">
-  <img src="../img/FONCTION SI.png" width="500">
+  <img src="../img/si.png" width="500">
 </p>
 
 ---
