@@ -130,6 +130,11 @@ C’est une structure intelligente qui permet :
 - une mise en forme propre
 - des calculs plus simples
 
+  <p align="center">
+  <img src="../img/table.png">
+  </p>
+
+
 ---
 
 ## 3.2 Pourquoi utiliser un tableau ?
@@ -176,6 +181,10 @@ Un graphique transforme :
 - des chiffres
 en
 - image compréhensible
+
+  <p align="center">
+  <img src="../img/graphique.png">
+  </p>
 
 ---
 
